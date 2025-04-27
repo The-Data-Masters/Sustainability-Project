@@ -1,0 +1,9 @@
+{
+  "name": "Low Consumption",
+  "expression": [
+    "1500",
+    ""
+  ],
+  "formatString": "0",
+  "lineageTag": "6a59a749-c02d-48e3-a127-55d96f6347a6"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "Maintenance Raatio",
+  "expression": [
+    "",
+    "VAR TotalCycle = SUM('Fact_Sustainability'[Maintenance_Cycle])",
+    "VAR TotalFrequency = SUM('Fact_Sustainability'[Maintenance_Frequency])",
+    "RETURN",
+    "IF(",
+    "    TotalFrequency = 0,  // Évite la division par zéro",
+    "    \"N/A\",",
+    "    DIVIDE(TotalCycle, TotalFrequency) * 100",
+    ")"
+  ],
+  "lineageTag": "ae6b8251-8305-4713-b44f-879948a07a73",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

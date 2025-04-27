@@ -1,0 +1,21 @@
+{
+  "name": "Rank by Energy Efficiency",
+  "expression": [
+    "",
+    "RANKX(",
+    "    ALL(Dim_Equipements),",
+    "    CALCULATE(",
+    "        DIVIDE(",
+    "            SELECTEDVALUE(Dim_Equipements[Energy_Consumption_kWh]),",
+    "            SELECTEDVALUE(Dim_Equipements[Estimated_Lifetime_Years])",
+    "        )",
+    "    ),",
+    "    ,",
+    "    ASC,",
+    "    Skip",
+    ")",
+    ""
+  ],
+  "formatString": "0",
+  "lineageTag": "ce511624-ec14-4e19-8912-39170fba98bd"
+}

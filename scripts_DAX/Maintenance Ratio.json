@@ -1,0 +1,17 @@
+{
+  "name": "Maintenance Ratio",
+  "expression": [
+    "",
+    "DIVIDE(",
+    "    SELECTEDVALUE('Fact_Sustainability'[Maintenance_Cycle], 0),  // 0 si valeur manquante",
+    "    SELECTEDVALUE('Fact_Sustainability'[Maintenance_Frequency], 1)  // Évite la division par zéro",
+    ") * 100"
+  ],
+  "lineageTag": "7c64492c-eb3b-4709-8fb8-84efaca1d6c7",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

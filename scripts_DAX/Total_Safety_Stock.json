@@ -1,0 +1,15 @@
+{
+  "name": "Total_Safety_Stock",
+  "expression": [
+    "",
+    "SUM('Dim_Materials'[Safety_Stock])",
+    ""
+  ],
+  "lineageTag": "8a0975e8-49ce-461b-a252-f4bc70a4a292",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

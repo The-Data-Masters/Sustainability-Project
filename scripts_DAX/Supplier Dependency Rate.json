@@ -1,0 +1,24 @@
+{
+  "name": "Supplier Dependency Rate",
+  "expression": [
+    "",
+    "DIVIDE(",
+    "    CALCULATE(",
+    "        SUM(Dim_Materials[Total_Stock_Value]),",
+    "        ALLEXCEPT(Dim_Materials, Dim_Materials[Supplier_ID])",
+    "    ),",
+    "    CALCULATE(",
+    "        SUM(Dim_Materials[Total_Stock_Value]),",
+    "        ALL(Dim_Materials)",
+    "    ),",
+    "    0",
+    ") * 100"
+  ],
+  "lineageTag": "f8c057e9-f620-4b41-9925-62b4af65739f",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

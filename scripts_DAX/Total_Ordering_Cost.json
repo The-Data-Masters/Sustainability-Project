@@ -1,0 +1,15 @@
+{
+  "name": "Total_Ordering_Cost",
+  "expression": [
+    "",
+    "SUM('Dim_Materials'[Ordering_Costs])",
+    ""
+  ],
+  "lineageTag": "89221f2a-a3e4-43bb-bff2-415758ee6f26",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

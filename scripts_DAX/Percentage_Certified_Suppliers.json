@@ -1,0 +1,19 @@
+{
+  "name": "Percentage_Certified_Suppliers",
+  "expression": [
+    "",
+    "VAR TotalSuppliers = COUNT('Dim_Suppliers'[ID])",
+    "VAR CertifiedSuppliers = COUNTROWS(FILTER('Dim_Suppliers', Dim_Suppliers[Environmental_Certifications] <> \"Aucune\"))",
+    "",
+    "RETURN ",
+    "    DIVIDE(CertifiedSuppliers, TotalSuppliers, 0) * 100",
+    ""
+  ],
+  "lineageTag": "3c3e59c4-aa85-4990-aef8-947fe106c8c2",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "name": "Critical Notification Rate",
+  "expression": [
+    "",
+    "DIVIDE(",
+    "    [Critical Notifications],",
+    "    [Total Notifications],",
+    "    0  // Gère les divisions par zéro",
+    ") * 100"
+  ],
+  "lineageTag": "2703a4bf-c5ed-4a31-b0fb-f971d09d11d2",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

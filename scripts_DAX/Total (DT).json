@@ -1,0 +1,8 @@
+{
+  "name": "Total (DT)",
+  "expression": [
+    "",
+    "FORMAT(SUM(facture[Total]), \"#,##0\") & \" DT\""
+  ],
+  "lineageTag": "39da9b48-f456-4e9e-8742-4eaaa8109467"
+}

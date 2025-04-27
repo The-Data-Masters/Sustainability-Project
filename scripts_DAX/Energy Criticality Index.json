@@ -1,0 +1,19 @@
+{
+  "name": "Energy Criticality Index",
+  "expression": [
+    "",
+    "DIVIDE(",
+    "    SUM('Dim_Equipements'[CO2_Emissions_kg]) * SUM('Dim_Equipements'[Energy_Consumption_kWh]),  ",
+    "    SUM('Dim_Equipements'[Estimated_Lifetime_Years]),  ",
+    "    0",
+    ")",
+    ""
+  ],
+  "lineageTag": "e681cf2d-f96f-4ca2-9b70-1278fe677ad3",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

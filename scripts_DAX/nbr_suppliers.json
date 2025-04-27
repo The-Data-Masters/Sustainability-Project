@@ -1,0 +1,6 @@
+{
+  "name": "nbr_suppliers",
+  "expression": "COUNTROWS('Dim_Suppliers')",
+  "formatString": "0",
+  "lineageTag": "8f006d05-0e6f-4afe-85cc-308a6e6459ea"
+}

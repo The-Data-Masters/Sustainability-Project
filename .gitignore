@@ -1,0 +1,15 @@
+# Fichiers PBIX temporaires
+*.pbix~
+
+# Secrets (variables d'environnement, clés privées)
+*.env
+*.key
+
+# Fichiers système inutiles
+Thumbs.db
+.DS_Store
+~$*
+
+# Fichiers de backup et temporaires
+*.bak
+*.tmp

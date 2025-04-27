@@ -1,0 +1,12 @@
+{
+  "name": "Critical Notifications",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    COUNTROWS(Dim_Reclamation),",
+    "    Dim_Reclamation[PRIOK] = 1",
+    ")"
+  ],
+  "formatString": "0",
+  "lineageTag": "12b2af82-f5ff-45f7-954e-30156cf78a69"
+}

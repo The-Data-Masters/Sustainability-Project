@@ -1,0 +1,18 @@
+{
+  "name": "Safety Stock Coverage",
+  "expression": [
+    "",
+    "DIVIDE(",
+    "    SUM(Fact_Sustainability[Safety_Stock]),",
+    "    SUM('inventory_supply_chain_dataset (1) (1)'[Historical_Sales_Data]),",
+    "    0",
+    ") * 100"
+  ],
+  "lineageTag": "f575e41e-d6cd-41d6-b27e-914b134f6d45",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

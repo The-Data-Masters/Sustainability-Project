@@ -1,0 +1,19 @@
+{
+  "name": "Average_Energy_Consumption",
+  "expression": [
+    "",
+    "DIVIDE(",
+    "    SUM('Dim_Equipements'[Energy_Consumption_kWh]),",
+    "    DISTINCTCOUNT('Dim_Equipements'[Equipment_ID]),",
+    "    0",
+    ")",
+    ""
+  ],
+  "lineageTag": "294474a9-051d-4e80-ab14-a2c3fb3d9877",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

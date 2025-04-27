@@ -1,0 +1,25 @@
+{
+  "name": "Participation Rate in Sustainability 2",
+  "expression": [
+    "",
+    "VAR TotalSuppliers = COUNT('Dim_Materials'[ID])",
+    "VAR participatingSuppliers = ",
+    "    COUNTROWS(",
+    "        FILTER(",
+    "            'Dim_Materials',",
+    "            'Dim_Materials'[Recycled_Packaging] <> \"Non\"",
+    "            && 'Dim_Materials'[Recycled_Packaging] <> \"Unknown\"",
+    "        )",
+    "    )",
+    "RETURN ",
+    "    DIVIDE(participatingSuppliers, TotalSuppliers, 0) * 100",
+    ""
+  ],
+  "lineageTag": "58da8642-b6e5-4f39-ae76-009ae8583e35",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

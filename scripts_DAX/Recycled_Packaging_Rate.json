@@ -1,0 +1,15 @@
+{
+  "name": "Recycled_Packaging_Rate",
+  "expression": [
+    "",
+    "DIVIDE(",
+    "    COUNTROWS(FILTER('Fact_Sustainability',Fact_Sustainability[Recycled_Packaging]=\"Oui\")), COUNTROWS('Fact_Sustainability'),0)*100"
+  ],
+  "lineageTag": "38d48b5c-4291-4f31-85a7-abd675efdfba",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

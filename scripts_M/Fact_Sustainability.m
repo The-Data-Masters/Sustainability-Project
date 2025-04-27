@@ -1,0 +1,28 @@
+let
+    Source = Sql.Database("Asssouma", "SAP_DW"),
+    dbo_Fact_Sustainability = Source{[Schema="dbo",Item="Fact_Sustainability"]}[Data],
+    #"Valeur remplacée" = Table.ReplaceValue(dbo_Fact_Sustainability,".",",",Replacer.ReplaceText,{"CO2_Emissions_kg"}),
+    #"Type modifié" = Table.TransformColumnTypes(#"Valeur remplacée",{{"CO2_Emissions_kg", type number}}),
+    #"Erreurs remplacées" = Table.ReplaceErrorValues(#"Type modifié", {{"CO2_Emissions_kg", 0}}),
+    #"Valeur remplacée1" = Table.ReplaceValue(#"Erreurs remplacées",".",",",Replacer.ReplaceText,{"Energy_Consumption_kWh"}),
+    #"Type modifié1" = Table.TransformColumnTypes(#"Valeur remplacée1",{{"Energy_Consumption_kWh", type number}}),
+    #"Erreurs remplacées1" = Table.ReplaceErrorValues(#"Type modifié1", {{"Energy_Consumption_kWh", 0}}),
+    #"Type modifié2" = Table.TransformColumnTypes(#"Erreurs remplacées1",{{"Estimated_Lifetime_Years", type number}, {"Carbon_Footprint_per_Unit_kgCO2e", type number}, {"Stock_Initial", type number}}),
+    #"Valeur remplacée2" = Table.ReplaceValue(#"Type modifié2",".",",",Replacer.ReplaceText,{"Total_Stock_Value"}),
+    #"Type modifié3" = Table.TransformColumnTypes(#"Valeur remplacée2",{{"Total_Stock_Value", type number}, {"Transport_Distance", type number}}),
+    #"Valeur remplacée3" = Table.ReplaceValue(#"Type modifié3",".",",",Replacer.ReplaceText,{"Unit_Price"}),
+    #"Type modifié4" = Table.TransformColumnTypes(#"Valeur remplacée3",{{"Unit_Price", type number}, {"Safety_Stock", type number}, {"Stock_Levels", type number}, {"Holding_Costs", type number}, {"Ordering_Costs", type number}}),
+    #"Erreurs remplacées2" = Table.ReplaceErrorValues(#"Type modifié4", {{"Estimated_Lifetime_Years", 0}}),
+    #"Valeur remplacée4" = Table.ReplaceValue(#"Erreurs remplacées2","Annuel","1",Replacer.ReplaceText,{"Maintenance_Frequency"}),
+    #"Valeur remplacée5" = Table.ReplaceValue(#"Valeur remplacée4","Trimestriel","4",Replacer.ReplaceText,{"Maintenance_Frequency"}),
+    #"Valeur remplacée6" = Table.ReplaceValue(#"Valeur remplacée5","Mensuel","12",Replacer.ReplaceText,{"Maintenance_Frequency"}),
+    #"Valeur remplacée7" = Table.ReplaceValue(#"Valeur remplacée6","Bimensuelle","6",Replacer.ReplaceText,{"Maintenance_Cycle"}),
+    #"Valeur remplacée8" = Table.ReplaceValue(#"Valeur remplacée7","Mensuelle","12",Replacer.ReplaceText,{"Maintenance_Cycle"}),
+    #"Valeur remplacée9" = Table.ReplaceValue(#"Valeur remplacée8","Trimestrielle","4",Replacer.ReplaceText,{"Maintenance_Cycle"}),
+    #"Valeur remplacée10" = Table.ReplaceValue(#"Valeur remplacée9","Annuellement","1",Replacer.ReplaceText,{"Maintenance_Cycle"}),
+    #"Valeur remplacée11" = Table.ReplaceValue(#"Valeur remplacée10","Unknown Cycle","0",Replacer.ReplaceText,{"Maintenance_Cycle"}),
+    #"Valeur remplacée12" = Table.ReplaceValue(#"Valeur remplacée11","Unkown Frequency","0",Replacer.ReplaceText,{"Maintenance_Frequency"}),
+    #"Valeur remplacée13" = Table.ReplaceValue(#"Valeur remplacée12","Unknown Frequency","0",Replacer.ReplaceText,{"Maintenance_Frequency"}),
+    #"Type modifié5" = Table.TransformColumnTypes(#"Valeur remplacée13",{{"Maintenance_Frequency", type number}, {"Maintenance_Cycle", type number}})
+in
+    #"Type modifié5"

@@ -1,0 +1,20 @@
+{
+  "name": "Total_Inventory_Cost",
+  "expression": [
+    "",
+    "SUMX(",
+    "    'Dim_Materials',",
+    "    ('Dim_Materials'[Stock_Levels] * 'Dim_Materials'[Unit_Price]) ",
+    "    + 'Dim_Materials'[Holding_Costs] ",
+    "    + 'Dim_Materials'[Ordering_Costs]",
+    ")",
+    ""
+  ],
+  "lineageTag": "116aab47-acd5-4960-a9b9-54e92922db78",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

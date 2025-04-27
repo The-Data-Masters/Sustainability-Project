@@ -1,0 +1,10 @@
+{
+  "name": "Total Notifications",
+  "expression": [
+    "",
+    "COUNTROWS(Dim_Reclamation)",
+    ""
+  ],
+  "formatString": "0",
+  "lineageTag": "62f830d4-7d00-4aa2-ada3-fea1fd2a1211"
+}

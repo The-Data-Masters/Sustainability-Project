@@ -1,0 +1,23 @@
+{
+  "name": "Procurement Efficiency (%)",
+  "expression": [
+    "",
+    "VAR TotalOrderingCosts = SUM('Fact_Sustainability'[Ordering_Costs]) ",
+    "VAR TotalStockLevels = SUM('Fact_Sustainability'[Stock_Levels]) ",
+    "",
+    "RETURN ",
+    "IF(",
+    "    TotalStockLevels > 0, ",
+    "    (TotalOrderingCosts / TotalStockLevels) * 100, ",
+    "    BLANK()",
+    ")",
+    ""
+  ],
+  "lineageTag": "a9175a95-f972-4651-b339-9e2637b421c4",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

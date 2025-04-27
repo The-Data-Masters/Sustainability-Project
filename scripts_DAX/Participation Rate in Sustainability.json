@@ -1,0 +1,19 @@
+{
+  "name": "Participation Rate in Sustainability",
+  "expression": [
+    "",
+    "VAR TotalSuppliers = COUNT('Dim_Suppliers'[ID])",
+    "VAR participatingSuppliers = COUNTROWS(FILTER('Dim_Suppliers', Dim_Suppliers[Sustainability_Program] <> \"Non\"))",
+    "",
+    "RETURN ",
+    "    DIVIDE(participatingSuppliers, TotalSuppliers, 0) * 100",
+    ""
+  ],
+  "lineageTag": "e667591c-9e07-4d54-8b4f-9cd5394c7737",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

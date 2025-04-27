@@ -1,0 +1,19 @@
+{
+  "name": "Energy Efficiency",
+  "expression": [
+    "",
+    "DIVIDE(",
+    "    SUM(Dim_Equipements[Energy_Consumption_kWh]), ",
+    "    SUM(Dim_Equipements[Estimated_Lifetime_Years]), ",
+    "    BLANK()",
+    ")",
+    ""
+  ],
+  "lineageTag": "ab681f6f-b176-4262-a108-65a52cd3b93f",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

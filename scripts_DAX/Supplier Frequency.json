@@ -1,0 +1,15 @@
+{
+  "name": "Supplier Frequency",
+  "expression": [
+    "",
+    "COUNTROWS(",
+    "    FILTER(",
+    "        Dim_Materials,",
+    "        NOT(ISBLANK(Dim_Materials[Supplier_ID]))",
+    "    )",
+    ")",
+    ""
+  ],
+  "formatString": "0",
+  "lineageTag": "d2a45208-018e-454f-8baa-7fa8f2e5674c"
+}

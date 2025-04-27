@@ -1,0 +1,26 @@
+{
+  "name": "Total_Procurement_Cost",
+  "expression": [
+    "",
+    "SUMX(",
+    "    SUMMARIZE(",
+    "        'Dim_Materials',",
+    "        'Dim_Materials'[Material_ID],",
+    "        'Dim_Materials'[Supplier_ID],",
+    "        \"Procurement_Cost\", ",
+    "            MAX('Dim_Materials'[Unit_Price]) * MAX('Dim_Materials'[Stock_Initial])",
+    "            + MAX('Dim_Materials'[Holding_Costs])",
+    "            + MAX('Dim_Materials'[Ordering_Costs])",
+    "    ),",
+    "    [Procurement_Cost]",
+    ")",
+    ""
+  ],
+  "lineageTag": "692b588e-ed7a-4932-a1ba-2e933281038e",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

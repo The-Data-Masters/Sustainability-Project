@@ -1,0 +1,18 @@
+{
+  "name": "Average Supplier Distance",
+  "expression": [
+    "",
+    "DIVIDE(",
+    "    SUM(Fact_Sustainability[Transport_Distance]),",
+    "    DISTINCTCOUNT(Fact_Sustainability[FK_Supplier]),",
+    "    0",
+    ")"
+  ],
+  "lineageTag": "fb27828a-cc63-4269-8145-2cdb55fd2b01",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

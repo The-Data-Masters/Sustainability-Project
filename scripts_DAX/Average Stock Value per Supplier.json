@@ -1,0 +1,23 @@
+{
+  "name": "Average Stock Value per Supplier",
+  "expression": [
+    "",
+    "CALCULATE(",
+    "    SUM(Dim_Materials[Total_Stock_Value]),",
+    "    ALLEXCEPT(Dim_Materials, Dim_Materials[Supplier_ID])",
+    ")",
+    "/",
+    "CALCULATE(",
+    "    DISTINCTCOUNT(Dim_Materials[Supplier_ID]),",
+    "    ALL(Dim_Materials)",
+    ")",
+    ""
+  ],
+  "lineageTag": "32d7751a-e605-4e55-b451-0d52c3e5e656",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

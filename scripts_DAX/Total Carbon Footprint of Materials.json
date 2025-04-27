@@ -1,0 +1,23 @@
+{
+  "name": "Total Carbon Footprint of Materials",
+  "expression": [
+    "",
+    "SUMX(",
+    "    SUMMARIZE(",
+    "        Fact_Sustainability,",
+    "        Fact_Sustainability[FK_Material], ",
+    "        Fact_Sustainability[Carbon_Footprint_per_Unit_kgCO2e],",
+    "        Fact_Sustainability[Stock_Initial]",
+    "    ),",
+    "    [Carbon_Footprint_per_Unit_kgCO2e] * [Stock_Initial]",
+    ")",
+    ""
+  ],
+  "lineageTag": "ea6e041b-55a1-4fd7-83d5-36af1d3d316b",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}

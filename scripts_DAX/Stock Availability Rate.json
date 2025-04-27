@@ -1,0 +1,18 @@
+{
+  "name": "Stock Availability Rate",
+  "expression": [
+    "",
+    "DIVIDE(",
+    "    SUM(Dim_Materials[Stock_Initial]), ",
+    "    SUM(Dim_Materials[Total_Stock_Value]), ",
+    "    0",
+    ") * 100"
+  ],
+  "lineageTag": "9a881be2-383b-4deb-9f1f-dadddd71a543",
+  "annotations": [
+    {
+      "name": "PBI_FormatHint",
+      "value": "{\"isGeneralNumber\":true}"
+    }
+  ]
+}
