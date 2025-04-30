@@ -1,0 +1,92 @@
+Supplier_ID;Supplier_Name;Phone_Number;Contact_Email;Location;Environmental_Certifications;Transport_Type;Renewable_Energy_Percentage;Sustainability_Program
+SUPPLIER_1;Laiterie Centrale;+216 71 25 2525;contact@laiteriecentrale.com;Tunis;Agriculture Biologique;Unknown;32.08545428;Oui
+SUPPLIER_2;Agro-Alimentaire Tunisie;+216 71;info@agroalimentaire.tn;Sfax;Aucune;Unknown;59.60501158;Non
+SUPPLIER_3;Import-Export Naturel;+216 71 000 600;contact@importnaturel.com;Sfax;ISO 14001;Unknown;99.57344521;Non
+SUPPLIER_4;Qualité Fraîcheur;+216 71 44 000;contactqualitefraicheurtn;Tunis;Aucune;Unknown;43.52622797;Non
+SUPPLIER_5;Fruits et Saveurs;+216 71 00 522;service@fruitsetsaveurs.com;Gabès;Aucune;Unknown;92.06914008;Oui
+SUPPLIER_6;Produits Bio Tunisie;+216 71 030 300;contact@bio-produits.tn;Tunis;Agriculture Biologique;Unknown;34.50168399;Oui
+SUPPLIER_7;Sucre & Co;+216 71 652900;info@sucreco.tn;Nabeul;Agriculture Biologique;Unknown;5.473270693;Oui
+SUPPLIER_8;Arômes et Essences;+216 71 10 040;servicearomesessences.tn;Nabeul;ISO 14001;Unknown;20.42421064;Non
+SUPPLIER_9;Choco-Delice;+216 71 654852;info@chocodelice.com;Sfax;Aucune;Unknown;41.86951433;Non
+SUPPLIER_10;Colorants Naturels;+216 71 0517;contact@colorantsnaturelstn;Gabès;Aucune;Unknown;21.96349286;Oui
+SUPPLIER_11;Fournitures Eco Tunisie;+216 71 584 503;info@fournituresecotunisie.tn;Sousse;ISO 14001;Ferroviaire;9.17;Oui
+SUPPLIER_12;Partenaires EcoCommerce;+216 71 994 820;info@partenairesecocommerce.tn;Nabeul;ISO 14001;Multimodal;15.33;Oui
+SUPPLIER_13;NaturalField Distributors;+216 71 592 641;info@naturalfielddistributors.org;Nabeul;ISO 14001;Ferroviaire;33.45;Non
+SUPPLIER_14;BioHarvest Distributors;+216 71 242 649;info@bioharvestdistributors.com;Sfax;Agriculture Biologique;Aérien;76.95;Oui
+SUPPLIER_15;Fournitures BioFrais SARL;+216 71 870 285;info@fournituresbiofraissarl.com;Sfax;Agriculture Biologique;Unknown;3.02;Oui
+SUPPLIER_16;Source Durable Tunisie;+216 71 974 986;info@sourcedurabletunisie.com;Nabeul;Agriculture Biologique;Ferroviaire;2.41;Oui
+SUPPLIER_17;Fournitures Planète Durable;+216 71 199 484;info@fournituresplanètedurable.tn;Sousse;Aucune;Multimodal;66.37;Oui
+SUPPLIER_18;Source Biologique SARL;+216 71 763 863;info@sourcebiologiquesarl.com;Sfax;Agriculture Biologique;Aérien;81.16;Non
+SUPPLIER_19;Distributeurs RécolteBio;+216 71 406 131;info@distributeursrécoltebio.tn;Tunis;ISO 14001;Multimodal;8.67;Oui
+SUPPLIER_20;Logistique Avenir Vert;+216 71 849 435;info@logistiqueavenirvert.tn;Nabeul;ISO 14001;Maritime;14.59;Oui
+SUPPLIER_21;Sustainable Produce Intl.;+216 71 711 544;info@sustainableproduceintl..tn;Sfax;ISO 14001;Camionnage;10.4;Non
+SUPPLIER_22;Commerce Nature Premier;+216 71 236 645;info@commercenaturepremier.com;Sfax;Aucune;Camionnage;61.05;Oui
+SUPPLIER_23;Énergie Verte Agro;+216 71 935 925;info@énergieverteagro.org;Sousse;ISO 14001;Unknown;38.62;Oui
+SUPPLIER_24;Solutions Agro Renouvelables;+216 71 619 386;info@solutionsagrorenouvelables.org;Sousse;ISO 14001;Multimodal;72.79;Oui
+SUPPLIER_25;BioSoutien SARL;+216 71 690 148;info@biosoutiensarl.org;Sfax;Aucune;Aérien;10.91;Oui
+SUPPLIER_26;Commerce Nature Premier;+216 71 506 863;info@commercenaturepremier.com;Gabès;Aucune;Multimodal;70.24;Oui
+SUPPLIER_27;Fournitures Agricoles Eco;+216 71 889 225;info@fournituresagricoleseco.org;Nabeul;ISO 14001;Ferroviaire;62.67;Non
+SUPPLIER_28;Départ Bio SARL;+216 71 387 176;info@départbiosarl.org;Sousse;ISO 14001;Maritime;42.06;Oui
+SUPPLIER_29;BioSustain Logistics;+216 71 756 736;info@biosustainlogistics.org;Gabès;Agriculture Biologique;Maritime;98.83;Oui
+SUPPLIER_30;Innovations Eco Intl.;+216 71 454 955;info@innovationsecointl..com;Sfax;ISO 14001;Maritime;98.24;Oui
+SUPPLIER_31;AgroGreen Tunisia;+216 71 830 904;info@agrogreentunisia.com;Tunis;Agriculture Biologique;Multimodal;65.39;Oui
+SUPPLIER_32;Fournitures Agricoles Eco;+216 71 374 457;info@fournituresagricoleseco.org;Sfax;Aucune;Ferroviaire;19.42;Non
+SUPPLIER_33;Fournitures Planète Durable;+216 71 956 773;info@fournituresplanètedurable.tn;Gabès;ISO 14001;Maritime;21.25;Non
+SUPPLIER_34;Fournitures Eco Tunisie;+216 71 398 177;info@fournituresecotunisie.com;Nabeul;Aucune;Ferroviaire;49.05;Non
+SUPPLIER_35;Agro Nature Chemin;+216 71 626 941;info@agronaturechemin.org;Tunis;Agriculture Biologique;Unknown;26.71;Oui
+SUPPLIER_36;Fournitures Terre Propre;+216 71 379 113;info@fournituresterrepropre.org;Sousse;ISO 14001;Unknown;66.05;Oui
+SUPPLIER_37;Commerce Nature Premier;+216 71 476 582;info@commercenaturepremier.org;Sfax;Agriculture Biologique;Maritime;5.31;Non
+SUPPLIER_38;Distributeurs SustainTech;+216 71 891 553;info@distributeurssustaintech.tn;Nabeul;Aucune;Multimodal;3.47;Oui
+SUPPLIER_39;Fermes du Futur Intl.;+216 71 452 839;info@fermesdufuturintl..com;Tunis;Agriculture Biologique;Ferroviaire;98.71;Non
+SUPPLIER_40;Pionniers Eco Logistique;+216 71 180 200;info@pionniersecologistique.tn;Gabès;Agriculture Biologique;Unknown;32.45;Oui
+SUPPLIER_41;PureBio SARL;+216 71 786 930;info@purebiosarl.org;Sousse;ISO 14001;Camionnage;15.8;Non
+SUPPLIER_42;Pure Nature SARL;+216 71 437 145;info@purenaturesarl.tn;Sousse;Aucune;Multimodal;84.58;Oui
+SUPPLIER_43;PureBio SARL;+216 71 511 531;info@purebiosarl.com;Nabeul;Agriculture Biologique;Maritime;18.24;Oui
+SUPPLIER_44;Solutions Eco Tunisie;+216 71 290 827;info@solutionsecotunisie.com;Gabès;Aucune;Ferroviaire;51.32;Non
+SUPPLIER_45;Emballages Verts Tunisie;+216 71 656 842;info@emballagesvertstunisie.org;Nabeul;ISO 14001;Camionnage;33.9;Oui
+SUPPLIER_46;Départ Bio SARL;+216 71 663 148;info@départbiosarl.com;Nabeul;Aucune;Camionnage;58.29;Oui
+SUPPLIER_47;Fournitures Récolte Future;+216 71 286 774;info@fournituresrécoltefuture.com;Sousse;Aucune;Camionnage;14.29;Oui
+SUPPLIER_48;Innovations Biologiques SARL;+216 71 469 460;info@innovationsbiologiquessarl.com;Sfax;Agriculture Biologique;Unknown;19.94;Oui
+SUPPLIER_49;Fruits Frais et Saveurs;+216 71 652 774;info@fruitsfraisetsaveurs.org;Tunis;ISO 14001;Ferroviaire;19;Oui
+SUPPLIER_50;GreenWay Supplies;+216 71 265 979;info@greenwaysupplies.org;Sousse;ISO 14001;Camionnage;78.85;Non
+SUPPLIER_51;Distributeurs GreenTech;+216 71 994 974;info@distributeursgreentech.org;Nabeul;Aucune;Camionnage;16.52;Oui
+SUPPLIER_52;Fournitures Eco Tunisie;+216 71 242 351;info@fournituresecotunisie.com;Tunis;Agriculture Biologique;Unknown;62.92;Oui
+SUPPLIER_53;Innovations Eco Intl.;+216 71 835 552;info@innovationsecointl..tn;Sousse;Agriculture Biologique;Multimodal;89.7;Oui
+SUPPLIER_54;Racines Vertes SARL;+216 71 570 164;info@racinesvertessarl.com;Sfax;Aucune;Maritime;90.13;Non
+SUPPLIER_55;Agro Nature Chemin;+216 71 178 599;info@agronaturechemin.org;Sousse;ISO 14001;Ferroviaire;26.23;Oui
+SUPPLIER_56;Organic Source Ltd.;+216 71 895 978;info@organicsourceltd..org;Gabès;Agriculture Biologique;Maritime;99.6;Non
+SUPPLIER_57;Vie Verte SARL;+216 71 735 549;info@vievertesarl.tn;Sfax;Aucune;Aérien;75.79;Oui
+SUPPLIER_58;Solutions Eco Tunisie;+216 71 457 159;info@solutionsecotunisie.org;Nabeul;Aucune;Unknown;17.73;Non
+SUPPLIER_59;BioChoice Logistics;+216 71 353 254;info@biochoicelogistics.org;Tunis;ISO 14001;Aérien;63.95;Oui
+SUPPLIER_60;Commerce Naturellement Bio;+216 71 646 697;info@commercenaturellementbio.org;Nabeul;Agriculture Biologique;Unknown;92.98;Non
+SUPPLIER_61;Fournitures Eco Tunisie;+216 71 113 714;info@fournituresecotunisie.org;Sousse;Agriculture Biologique;Ferroviaire;73.15;Non
+SUPPLIER_62;Énergie Verte Agro;+216 71 460 852;info@énergieverteagro.org;Tunis;ISO 14001;Aérien;30.72;Non
+SUPPLIER_63;Aliments Solaires Tunisie;+216 71 376 632;info@alimentssolairestunisie.org;Nabeul;Agriculture Biologique;Maritime;99.12;Oui
+SUPPLIER_64;Sain et Durable SARL;+216 71 224 586;info@sainetdurablesarl.com;Gabès;Aucune;Ferroviaire;60.48;Non
+SUPPLIER_65;Vie Verte SARL;+216 71 592 248;info@vievertesarl.com;Nabeul;Aucune;Maritime;70.82;Non
+SUPPLIER_66;Future Foods Tunisia;+216 71 227 469;info@futurefoodstunisia.tn;Tunis;Agriculture Biologique;Unknown;70.71;Oui
+SUPPLIER_67;Logistique PureVert;+216 71 995 423;info@logistiquepurevert.org;Tunis;ISO 14001;Ferroviaire;4.66;Non
+SUPPLIER_68;Racines Vertes SARL;+216 71 168 773;info@racinesvertessarl.tn;Sousse;Aucune;Ferroviaire;63.66;Non
+SUPPLIER_69;Logistique Eco Intl.;+216 71 419 680;info@logistiqueecointl..com;Gabès;Aucune;Maritime;35.35;Non
+SUPPLIER_70;Solutions Eco Tunisie;+216 71 798 605;info@solutionsecotunisie.org;Sfax;Agriculture Biologique;Maritime;92.75;Oui
+SUPPLIER_71;Fournitures Agricoles Eco;+216 71 716 702;info@fournituresagricoleseco.com;Gabès;Agriculture Biologique;Ferroviaire;4.91;Oui
+SUPPLIER_72;Aliments Biologiques SARL;+216 71 616 415;info@alimentsbiologiquessarl.org;Tunis;Agriculture Biologique;Multimodal;57.55;Oui
+SUPPLIER_73;Fournitures Terre Propre;+216 71 382 989;info@fournituresterrepropre.tn;Gabès;ISO 14001;Unknown;67.72;Non
+SUPPLIER_74;Logistique BioChoix;+216 71 207 441;info@logistiquebiochoix.com;Sfax;Aucune;Unknown;42.11;Oui
+SUPPLIER_75;Partenaires EcoCommerce;+216 71 270 812;info@partenairesecocommerce.com;Tunis;ISO 14001;Multimodal;1.88;Oui
+SUPPLIER_76;Marché Biologique SARL;+216 71 102 647;info@marchébiologiquesarl.org;Sfax;ISO 14001;Maritime;36.68;Non
+SUPPLIER_77;Produits Naturels Intl.;+216 71 751 260;info@produitsnaturelsintl..org;Nabeul;ISO 14001;Unknown;41.29;Non
+SUPPLIER_78;Distributeurs SustainTech;+216 71 676 403;info@distributeurssustaintech.org;Nabeul;Agriculture Biologique;Camionnage;46.92;Non
+SUPPLIER_79;Fournitures Voie Verte;+216 71 914 624;info@fournituresvoieverte.com;Nabeul;Agriculture Biologique;Ferroviaire;29.27;Oui
+SUPPLIER_80;Planète Verte Aliments;+216 71 905 504;info@planètevertealiments.org;Sousse;Aucune;Multimodal;19.35;Non
+SUPPLIER_81;Logistique Eco Intl.;+216 71 260 497;info@logistiqueecointl..org;Sfax;Agriculture Biologique;Unknown;89.13;Oui
+SUPPLIER_82;Vie Verte SARL;+216 71 257 108;info@vievertesarl.tn;Nabeul;ISO 14001;Maritime;28.82;Non
+SUPPLIER_83;Fermes du Futur Intl.;+216 71 352 155;info@fermesdufuturintl..tn;Sousse;Aucune;Multimodal;67.93;Non
+SUPPLIER_84;Agri Food;71 300 600;Mail: ridene.agrifood@hotmail.com;Houaria - Nabeul;2005;;;
+SUPPLIER_85;Agro Alimentare Italiana;20 251 112;Mail: agroalimentareitaliana@gmail.com;Mornaguia - Manouba;2015;;;
+SUPPLIER_86;Agro Nature ;22 521 261;Mail: agronature2010@gmail.com;El Hwamed - Kairouan;FSSC 22000;;;
+SUPPLIER_87;Antica ;95 425 314;Mail: nouri.abdala@gmail.com;Mornaguia -Tunis;20 052 015;;;
+SUPPLIER_88;AYARI BOURAOUI;96 712 105;Mail: ayari_bouraoui@yahoo.com;Kondar - Sousse;2005;;;
+SUPPLIER_89;Centre de Séchage Naturel de Béja;97 714 828;Mail: koukiameni18@gmail.com;Sidi Ismail Zlaoui - Beja;;;;
+SUPPLIER_90;Cotepa;50 324 466 / 71759 000;Mail: onszarrad.cotepa@gmail.com;Tebourba - Manouba;2015;;;
+SUPPLIER_91;Herbes de Tunis;78 820 050 / 98 704 330;Mail: technique@ayachi-group.com;Kessra - Siliana;2005;;;
